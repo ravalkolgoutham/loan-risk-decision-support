@@ -1,0 +1,12 @@
+# Ignore massive raw CSV datasets (GitHub 100 MB limit)
+*.csv
+archive/
+data/
+
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.env
